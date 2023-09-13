@@ -1,0 +1,41 @@
+#include <iostream>
+
+int main() {
+  double earth_weight;
+  int planet_number;
+
+  std::cout << "What is your weight on earth?\n";
+  std::cin >> earth_weight;
+  
+  std::cout << "Enter the number of the number you want to fight on:\n";
+  std::cin >> planet_number;
+  
+  double relative_weight;
+
+  switch (planet_number) {
+    case 1:
+      relative_weight = earth_weight * 0.38;
+      std::cout << 
+      break;
+    case 2:
+      relative_weight = earth_weight * 0.91;
+      break;
+    case 3:
+      relative_weight = earth_weight * 0.38;
+      break;
+    case 4:
+      relative_weight = earth_weight * 2.34;
+      break;
+    case 5:
+      relative_weight = earth_weight * 1.06;
+      break;
+    case 6:
+      relative_weight = earth_weight * 0.92;
+      break;
+    case 7:
+      relative_weight = earth_weight * 1.19;
+      break;                
+    default:
+      std::cout << "The number you entered does not correspond to a planet.\n";
+  }
+}
