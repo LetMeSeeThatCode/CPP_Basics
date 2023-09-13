@@ -42,3 +42,17 @@ Prompt:
       - If that year is evenly divisible by 400, then it is a leap year.
   
   Take some time to research and brainstorm before starting to write the code!
+
+## cpp_vectors
+Source: codecademy learn C++ module
+
+Write a program to find the sum of even numbers and the product of odd numbers in a vector.
+
+For example:
+
+Suppose we have a vector that is {2, 4, 3, 6, 1, 9}.
+
+Then the program should output:
+
+Sum of even numbers is 12
+Product of odd numbers is 27
